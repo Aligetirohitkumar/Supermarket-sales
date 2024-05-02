@@ -122,7 +122,7 @@ invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     );
 
 
-For SQL queries and further analysis, refer to the SQL_queries.sql file in the project repository.
+For SQL queries and further analysis, refer to the SQL code file in the project repository.
 
 
 This adapted overview provides a framework for analyzing supermarket sales data, covering key aspects such as product analysis, sales trends, and customer behavior. If you have any specific questions or need assistance with further details, feel free to ask!
