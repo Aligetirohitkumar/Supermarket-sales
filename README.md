@@ -1,12 +1,20 @@
 Supermarket Sales Data Analysis
+
+
 About
 This project aims to delve into the sales data of a supermarket chain to gain insights into top-performing branches, popular products, sales trends, and customer behavior. The dataset used for this analysis comprises sales transactions from multiple branches of the supermarket chain.
+
+
 
 Purposes Of The Project
 The primary objective of this project is to understand the factors influencing sales across different branches of the supermarket chain and to identify opportunities for improving and optimizing sales strategies.
 
+
+
 About Data
 The dataset contains sales transactions from multiple branches of the supermarket chain. Each transaction includes information such as invoice ID, branch location, customer type, product details, unit price, quantity sold, total amount, date, time, payment method, cost of goods sold (COGS), gross margin percentage, gross income, and customer rating.
+
+
 
 Analysis List
 Product AnalysisConduct analysis to understand the various product categories, identify best-selling products, and pinpoint areas for product line improvement.
