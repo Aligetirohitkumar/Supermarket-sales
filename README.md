@@ -80,11 +80,11 @@ Business Questions To Answer
 
 Assess customer satisfaction levels and identify areas for improvement.
 # Code
+
+
 -- Create database
 CREATE DATABASE IF NOT EXISTS supermarketsales;
-
 -- Create table
-
 CREATE TABLE IF NOT EXISTS sales(
 invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
  
@@ -122,7 +122,7 @@ invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     );
 
 
-For SQL queries and further analysis, refer to the SQL code file in the project repository.
+For SQL queries and further analysis, refer to the SQL code file in the project repository and there are many different questions and (code)answers and you can explore in the SQL code file in the project repository.
 
 
 This adapted overview provides a framework for analyzing supermarket sales data, covering key aspects such as product analysis, sales trends, and customer behavior. If you have any specific questions or need assistance with further details, feel free to ask!
