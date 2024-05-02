@@ -59,20 +59,50 @@ findings from the analysis and provide recommendations for improving sales perfo
 Business Questions To Answer
 # Generic Questions
 1.Determine the number of unique branches and their locations.
+
 2.Identify the most common payment methods used by customers.
 # Product Analysis
 1.Determine the most popular product categories.
+
 2.Analyze revenue by product category and identify the top-performing categories.
+
 3.Investigate seasonal variations in sales and profitability.
 # Sales Analysis
 1.Analyze sales trends over time and identify peak sales periods.
+
 2.Assess revenue contribution from different branches and regions.
+
 3.Investigate the impact of promotions and discounts on sales performance.
 # Customer Analysis
 1.Identify the most valuable customer segments based on revenue contribution.
+
 2.Analyze customer purchasing behavior and preferences.
+
 Assess customer satisfaction levels and identify areas for improvement.
-Code
+# Code
+-- Create database
+CREATE DATABASE IF NOT EXISTS walmartSales;
+
+-- Create table
+CREATE TABLE IF NOT EXISTS sales(
+	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
+    branch VARCHAR(5) NOT NULL,
+    city VARCHAR(30) NOT NULL,
+    customer_type VARCHAR(30) NOT NULL,
+    gender VARCHAR(30) NOT NULL,
+    product_line VARCHAR(100) NOT NULL,
+    unit_price DECIMAL(10,2) NOT NULL,
+    quantity INT NOT NULL,
+    tax_pct FLOAT(6,4) NOT NULL,
+    total DECIMAL(12, 4) NOT NULL,
+    date DATETIME NOT NULL,
+    time TIME NOT NULL,
+    payment VARCHAR(15) NOT NULL,
+    cogs DECIMAL(10,2) NOT NULL,
+    gross_margin_pct FLOAT(11,9),
+    gross_income DECIMAL(12, 4),
+    rating FLOAT(2, 1)
+);
 For SQL queries and further analysis, refer to the SQL_queries.sql file in the project repository.
 
 This adapted overview provides a framework for analyzing supermarket sales data, covering key aspects such as product analysis, sales trends, and customer behavior. If you have any specific questions or need assistance with further details, feel free to ask!
