@@ -81,13 +81,12 @@ Business Questions To Answer
 Assess customer satisfaction levels and identify areas for improvement.
 # Code
 -- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
+CREATE DATABASE IF NOT EXISTS supermarketsales;
 
 -- Create table
 
 CREATE TABLE IF NOT EXISTS sales(
-
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
+invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
  
     branch VARCHAR(5) NOT NULL,
     
@@ -120,8 +119,7 @@ CREATE TABLE IF NOT EXISTS sales(
     gross_income DECIMAL(12, 4),
     
     rating FLOAT(2, 1)
-    
-);
+    );
 
 
 For SQL queries and further analysis, refer to the SQL_queries.sql file in the project repository.
